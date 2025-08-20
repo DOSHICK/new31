@@ -1241,7 +1241,7 @@ footer .right .footer-links a:nth-last-child(1)::after {
   border-radius: 8px;
   border: 0.5px solid var(--title, #eaeaec);
   height: 402px;
-  background-image: url(/public/assets/images/dapp-bg.png);
+  background-image: url(/publicassets/images/dapp-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
